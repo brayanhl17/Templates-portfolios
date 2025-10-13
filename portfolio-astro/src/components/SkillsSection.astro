@@ -1,0 +1,80 @@
+---
+import IconContainer from "@components/IconContainer.astro";
+import Css from "@assets/icons/css.astro";
+import Net from "@assets/icons/net.astro";
+import Javascript from "@assets/icons/javascript.astro";
+import React from "@assets/icons/react.astro";
+import Html from "@assets/icons/html.astro";
+import Postgresql from "@assets/icons/postgresql.astro";
+import Blazor from "@assets/icons/blazor.astro";
+import Csharp from "@assets/icons/csharp.astro";
+import Sqlserver from "@assets/icons/sqlserver.astro"
+import Mysql from "@assets/icons/mysql.astro";
+import Git from "@assets/icons/git.astro";
+import Github from "@assets/icons/github.astro";
+import Vscode from "@assets/icons/vscode.astro";
+import Figma from "@assets/icons/figma.astro";
+import Visualstudio from "@assets/icons/visualstudio.astro";
+---
+
+<section class="my-20">
+  <h2 class="text-2xl font-semibold mb-1">Habilidades</h2>
+  <hr class="mb-6 border-zinc-600">
+
+  <h3 class="text-xl text-blue-400 font-medium mb-4 siz">Frontend</h3>
+  <div class="flex flex-wrap gap-5">
+    <IconContainer name="HTML">
+      <Html size="size-9" />
+    </IconContainer>
+    <IconContainer name="CSS">
+      <Css size="size-9" />
+    </IconContainer>
+    <IconContainer name="Javascript">
+      <Javascript size="size-9" />
+    </IconContainer>
+    <IconContainer name="React">
+      <React size="size-9" />
+    </IconContainer>
+    <IconContainer name="Blazor">
+      <Blazor size="size-9" />
+    </IconContainer>
+  </div>
+
+  <h3 class="text-xl text-blue-400 font-medium mt-6 mb-4">Backend</h3>
+  <div class="flex flex-wrap gap-5">
+    <IconContainer name=".NET">
+      <Net size="size-9" />
+    </IconContainer>
+    <IconContainer name="C#">
+      <Csharp size="size-9" />
+    </IconContainer>
+    <IconContainer name="MySQL">
+      <Mysql size="size-9" />
+    </IconContainer>
+    <IconContainer name="SQL Server">
+      <Sqlserver size="size-9" />
+    </IconContainer>
+    <IconContainer name="PostgreSQL">
+      <Postgresql size="size-9" />
+    </IconContainer>
+  </div>
+
+  <h3 class="text-xl text-blue-400 font-medium mt-6 mb-4">Herramientas</h3>
+  <div class="flex flex-wrap gap-5">
+    <IconContainer name="Git">
+      <Git size="size-9" />
+    </IconContainer>
+    <IconContainer name="Github">
+      <Github size="size-9" />
+    </IconContainer>
+    <IconContainer name="VSCode">
+      <Vscode size="size-9" />
+    </IconContainer>
+    <IconContainer name="Visual Studio">
+      <Visualstudio size="size-9" />
+    </IconContainer>
+    <IconContainer name="Figma">
+      <Figma size="size-9" />
+    </IconContainer>
+  </div>
+</section>

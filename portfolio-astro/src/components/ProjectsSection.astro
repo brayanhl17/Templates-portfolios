@@ -1,0 +1,32 @@
+---
+import ProjectCard from '@components/ProjectCard.astro'
+import Aspnet from '@assets/icons/aspnet.astro';
+import Net from '@assets/icons/net.astro';
+import Html from '@assets/icons/html.astro';
+import Css from '@assets/icons/css.astro';
+import Bootstrap from '@assets/icons/bootstrap.astro';
+import Blazor from '@assets/icons/blazor.astro';
+import Sqlserver from '@assets/icons/sqlserver.astro';
+import Csharp from '@assets/icons/csharp.astro';
+---
+
+<section class="my-20">
+  <h2 class="text-2xl font-semibold mb-2">Proyectos</h2>
+  <hr class="mb-6 border-zinc-600">
+
+  <ProjectCard projectTitle="Sistema de gestión de inventario" projectDescription="Sistema de inventario empresarial para la gestión de productos, existencias y movimientos entre almacenes, construido con Blazor Server y .NET 8. Permite el control en tiempo real del stock, generación de reportes dinámicos, administración de usuarios con roles y registro histórico de entradas y salidas." projectLink="" image="/images/inventario.jpg">
+    <Blazor />
+    <Net />
+    <Csharp/>
+    <Html/>
+    <Css />
+  </ProjectCard>
+
+  <ProjectCard projectTitle="Ecommerce" projectDescription="Plataforma de comercio electrónico con ASP.NET Core y Entity Framework Core, enfocada en la venta de productos físicos. Incluye catálogo de productos, carrito de compras, pasarela de pagos, gestión de usuarios y panel de administración." projectLink="" image="/images/ecommerce.jpeg">
+    <Net />
+    <Bootstrap />
+    <Sqlserver />
+    <Aspnet />
+  </ProjectCard> 
+  
+</section>
