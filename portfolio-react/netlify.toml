@@ -1,6 +1,5 @@
 [build]
-  base = "portfolio-react"
-  command = "npm install && npm run build"
+  command = "cd portfolio-react && npm install && npm run build"
   publish = "portfolio-react/dist"
 
 [build.environment]
