@@ -1,7 +1,10 @@
 [build]
   base = "portfolio-react"
   command = "npm install && npm run build"
-  publish = "dist"
+  publish = "portfolio-react/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
 
 [[redirects]]
   from = "/*"
