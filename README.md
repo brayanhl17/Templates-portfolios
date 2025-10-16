@@ -209,6 +209,7 @@ npm test
 ---
 
 ### Configuración Base
+Si deseas hacer el deploy de cualquiera de estos templates en netlify para tu propio portfolio, asegúrate de escribir en "publish directory" las siguientes configuraciones:
 
 **Astro:**
 - Base directory: `portfolio-astro`
